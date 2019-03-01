@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+   <link rel="stylesheet" href="welcome to my blog.css">
+   <link rel="stylesheet" href="app.min.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+   crossorigin="anonymous"></script>
+ 
+   <style>
+      /* TODO */
+    </style>
+  </head>
+
+  <body>
+    <div class="app-page" data-page="home">
+      <div class="app-topbar">
+        <div class="app-title">Home page</div>
+      </div>
+      <div class="app-content"><div id="headerArea">
+          <h1>CHIBUIKE07.ONLINEWEBSHOP.NET</h1>
+          <p>search chibuike07.onlinewebshop.net</p>
+      </div>
+          <div id="sideArea">
+      <p>Ready to get started? <a href="http://chibuike07.onlinewebshop.net"> to my blog</a></p>
+      <br>
+      
+      <div id="jumbosearch">
+              <div class="container">
+                  <div class="form">
+                      <form role="search" method="get" class="search-form" action="http://chibuike07.onlinewebshop.net/">
+                          <label>
+                              <span class="screen-reader-text">Search for:</span>
+                              <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+                          </label>
+                          <input type="submit" class="search-submit" value="Search" />
+                      </form>
+                  </div>
+              </div>
+          </div>
+       <br>
+      </div>
+      <div id="textArea">
+      <h1> Chibuike Blog</h1>
+      <p> Chibuike blog is a blog designed to reach all form of news happenning around the world</p></span>
+      
+      <p>easy to access and friendly blog , comment and post as you wish about recent happenings around you. chibuke vlog varies from all categories of post , so my dear let us know what is happening around you. </p> <hr>
+      <p><img src="C:\Users\hp\Desktop\my bincom test.html\image.PNG" width="90%" height="200px"></p>
+      <p> Trusted by the Best
+      <br>
+      99%of  the in posted and shared here is authentic and from reliable sources, so i urge us to feed us with true fact abour what is happening around you.<br>
+      <a href="chibyk.html">Discover more categories of news by Chibuike Blog</a></p> 
+      
+      <form action="http://chibuike07.onlinewebshop.net/category/" method="get"></form>
+      <input type="radio" name="radio group" value="Categories" checked><a href="http://chibuike07.onlinewebshop.net/category/">categorized</a><br>
+      <input type="radio" name="categories" value="Uncategorized" ><a href="http://chibuike07.onlinewebshop.net/category/uncategorized/">Uncategorized</a><br>
+      </form>
+
+      <p> you want to know about wordpress <a href="chibyk2.html">Wordpress</a></p>
+<p>you want to know about the author <a href="author page.html">meet the author</a></p>
+
+      </div>
+      
+      <div id="footerArea">
+      copyright &copy 2019 Chibuike All Right Reserved
+      </div>
+        <div class="app-section">
+          <div class="app-button" data-target="page2">Go to Page 2</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="app-page" data-page="">
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title"></div>
+      </div>
+      <div class="app-content">
+          <div class="app-section">
+            <div class="app-button" data-target="home"></div>
+          </div>
+        </div>
+      </div>
+
+    <script src="zepto.js"></script>
+    <script src="app.min.js"></script>
+    <script>
+      App.controller('home', function (page) {
+        // put stuff here
+      });
+
+      App.controller('page2', function (page) {
+        // put stuff here
+
+      });
+
+
+      try {
+        App.restore();
+      } catch (err) {
+        App.load('home');
+      }
+    </script>
+  </body>
+</html>
